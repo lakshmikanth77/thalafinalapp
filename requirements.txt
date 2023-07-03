@@ -110,14 +110,6 @@ pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2023.3
-pytz-deprecation-shim==0.1.0.post0
-pywin32==306
-pywinpty==2.0.10
-PyYAML==6.0
-pyzmq==25.0.2
-qdldl==0.1.7
-qtconsole==5.4.2
-QtPy==2.3.1
 requests==2.28.2
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
@@ -125,7 +117,6 @@ rich==13.3.5
 scikit-learn==1.2.2
 scikit-survival==0.20.0
 scipy==1.10.1
-seaborn==0.12.2
 semver==3.0.1
 Send2Trash==1.8.0
 simplejson==3.19.1
