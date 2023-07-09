@@ -16,7 +16,7 @@ def train_model(data_path):
     return model
 
 def run():
-    st.title("Thalassemia Patients disease class Prediction App- By Lakshmikanth Katabathula MSBA, University of cincinnati")
+    st.title("Thalassemia Patients disease class Prediction App")
     st.sidebar.header('Input patient biomarkers')
 
     def user_input_features():
@@ -39,6 +39,7 @@ def run():
     data = user_input_features()
     data_df = pd.DataFrame(data, index=[0])
 
+    st.subheader('By Lakshmikanth Katabathula MSBA, University of cincinnati')
     st.subheader('Patient biomarkers')
     st.write(data_df)
     
