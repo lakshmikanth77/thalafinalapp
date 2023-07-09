@@ -16,7 +16,7 @@ def train_model(data_path):
     return model
 
 def run():
-    st.title("Thalassemia Patient disease class Prediction")
+    st.title("Thalassemia Patients disease class Prediction App- By Lakshmikanth Katabathula MSBA, University of cincinnati")
     st.sidebar.header('Input patient biomarkers')
 
     def user_input_features():
